@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="section-one">
+
+        <div class="search">
+            <input type="text" id="city">
+            <button type="submit" id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+
+        <i class="fa-solid fa-cloud cloud"></i>
+
+        <div class="degree">
+            <h2 id="temp"></h2>
+        </div>
+
+        <div class="other-info">
+            <p id="date"></p>
+            <h3 id="daytime"></h3>
+        </div>
+
+        <div class="location">
+            <h2 id="location"></h2>
+        </div>
+
+    </section>
+
+    <section class="section-two">
+        <div class="titles">
+            <h3 id="citytitle"></h3>
+        </div>
+
+        <div class="weather">
+            <div class="measures">
+                <p>Wind Speed</p>
+                <h3 id="windspeed"></h3>
+            </div>
+            <div class="measures">
+                <p>Humidity</p>
+                <h3 id="humidity"></h3>
+            </div>
+            <div class="measures">
+                <p>Real Feel</p>
+                <h3 id="feel"></h3>
+            </div>
+            <div class="measures">
+                <p>Cloud PCT</p>
+                <h3 id="pct"></h3>
+            </div>
+            <div class="measures">
+                <p>Min Temp</p>
+                <h3 id="mintemp"></h3>
+            </div>
+            <div class="measures">
+                <p>Max Temp</p>
+                <h3 id="maxtemp"></h3>
+            </div>
+            <div class="measures">
+                <p>Wind Degrees</p>
+                <h3 id="windegree"></h3>
+            </div>
+            <div class="measures">
+                <p>Sunrise</p>
+                <h3 id="sunrise"></h3>
+            </div>
+            <div class="measures">
+                <p>Sunset</p>
+                <h3 id="sunset"></h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
