@@ -5,4 +5,4 @@ It's a webapp that's enables user to see the weather of multiple locations, buil
 - HTML5
 - CSS
 - Javascript
-- API
+- REST API
